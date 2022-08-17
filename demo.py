@@ -1,7 +1,6 @@
 #Assignment-3: Type Conversion
 #1. Write a python script to convert a number into str type.
 
-from ssl import OP_NO_TLSv1_1
 
 
 x=1234

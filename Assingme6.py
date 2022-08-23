@@ -42,7 +42,14 @@ else:
     print("It's not correct")
 
 #5. Write a python script to print two given words in dictionary order
+dic=["mysirg","rohit"]
+print(dic)
 #6. Write a python script to check whether a given number is a three digit number or not.
+my=int(input("please enter number")
+if my<1000 and my>99:
+       print("three number")
+ else:
+       print("not three number")
 # 7. Write a python script to check whether a given number is positive, negative or zero.
 a=int(input("Enter the given number"))
 if a>0:
@@ -80,6 +87,15 @@ elif num3>num2>num1:
 
 # 11. Write a python script to take the month value in numeric format and display the
 #number of days in it.
+       
+ month=int(input("Enter the month"))
+ if month in (1,3,5,7,8,10,12):
+       print("31 days")
+  elif month in (4,6,9,11):
+       print("30 days")
+  elif month==2:
+       print("29 days")
+       
 # 12. Write a python script to accept one complex number from the user and display the
 # greater number between real part and imaginary part
 

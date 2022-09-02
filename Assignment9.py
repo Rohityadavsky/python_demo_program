@@ -47,5 +47,20 @@ while i<=n:
     print(n,end=" ")
     n=n-2
 # 8. Write a python script to print squares of first N natural numbers
+n=int(input("Enter a number:"))
+i=1
+while i<=n:
+    print(i**2,end=" ")
+    i+=1
 # 9. Write a python script to print cubes of first N natural numbers
+n=int(input("Enter a number:"))
+i=1
+while i<=n:
+    print(i**3,end=" ")
+    i+=1
 # 10. Write a python script to print first 10 multiples of N
+n=int(input("Enter a number:"))
+i=1
+while i<=n:
+    print(i*10,end=" ")
+    i+=1

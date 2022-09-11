@@ -3,8 +3,8 @@
 # 1. Write a python script to remove the last digit from a given number. (for example, if
 # user enters 2534 then your output should be 253)
 
-n=int(input("Enter number"))
-print(int(str(n)[:-1]))
+n=(input("Enter number"))
+print(int(n[:-1]))
 
 
 
@@ -24,12 +24,12 @@ a=b
 b=c
 print("Swap a and b is",a,b)
 
-# another way
-a=10
-b=20
-b=a
-a=b+b
-print("swaping is",a,b)
+# another way 
+
+a=int(input("Enter a first number"))
+b=int(input("Enter a second number"))
+a,b=b,a
+print("a",a,"b",b)
 
 
 

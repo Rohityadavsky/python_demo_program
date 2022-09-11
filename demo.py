@@ -1,12 +1,14 @@
 #Assignment-1: Warm-up with python
 
 # 1. Write a command to get the Python version you are using.
-print("hello")
+import sys # import sys models 
+sys.version 
 
 #ouput hello
 
 # 2. Write a python script to print Hello Python on the screen directly in the command
 # line.
+
 print("Hello Python")
 
 # 5. Write a python script to print Hello on the first line and Python on the second line
@@ -41,9 +43,9 @@ print(r1,age,quali,year,sep=",")
 n1=40
 n2=50
 n3=50
-print(n1)
-print(n2)
-print(n3)
+
+print(n1,n2,n3,sep="\n")
+
 
 
 

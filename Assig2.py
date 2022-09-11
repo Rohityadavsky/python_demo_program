@@ -21,10 +21,8 @@ c=2342.42342
 #complex data
 d=4+3j
 
-print(a)
-print(b)
-print(c)
-print(d)
+print(a,b,c,d,sep="\n")
+
 
  
 
@@ -38,9 +36,9 @@ a="MySirG"
 b=342442
 c=4324.54342
 d=4+3j
-e=5434
-f=bin(e)
-print(a,type(a),b,type(b),c,type(c),d,type(d),f,type(f))
+e=True
+print(a,b,c,d,e,sep="\n")
+print(type(a),type(b),type(c),type(d),type(e))
 
 
 

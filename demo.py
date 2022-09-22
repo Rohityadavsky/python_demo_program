@@ -1,59 +1,56 @@
-#Assignment-3: Type Conversion
-#1. Write a python script to convert a number into str type.
+#Assignment-1: Warm-up with python
+
+# 1. Write a command to get the Python version you are using.
+import sys # import sys models 
+sys.version 
+
+#ouput hello
+
+# 2. Write a python script to print Hello Python on the screen directly in the command
+# line.
+
+print("Hello Python")
+
+# 5. Write a python script to print Hello on the first line and Python on the second line
+
+print("Hello\n Python")
+
+# 6. Write a python script to print “MySirG” on the screen
+
+print('"MySirG"')
+
+# 7. Write a python script to print “Teacher’s Day” on the screen
+
+print('''"Teacher's Day"''')
+
+# 8. Write a python script to print the value of a variable. Variable contains your name as
+# data.
+
+r="Rohit Yadav"
+print(r)
+
+# 9. Write a python script to create variables to store your name, age, qualification, years
+# of experience and print it.
+r1="Rohit Yadav"
+age=22
+quali="Diploma IT"
+year=2021
+print(r1,age,quali,year,sep=",")
+
+# 10. Write a python script to print values of three variables, each in a new line. Variable
+# contains integer values
+
+n1=40
+n2=50
+n3=50
+
+print(n1,n2,n3,sep="\n")
 
 
 
-x=1234
-print(str(x))
 
-#2. Write a python script to print Unicode of the character ‘m’
 
-a='m'
-print(ord(a))
 
-#3. Write a python script to print character representation of a given unicode 100.
-
-b=100
-print(chr(b))
-
-# 4. Write a python script to print any number and its binary equivalent
-
-b1=1234
-print(bin(b1))
-
-# 5. Write a python script to print any number and its octal equivalent.
-
-o_1=24233
-print(oct(o_1))
-
-# 6. Write a python script to print any number and its hexadecimal equivalent.
-
-h_1=2342424
-print(hex(h_1))
-
-# 7. Write a python script to store binary number 1100101 in a variable and print it in
-# decimal format.
-
-b2=0b1100101
-print(b2)
-
-#8. Write a python script to store a hexadecimal number 2F in a variable and print it in
-# octal format.
-
-h2=0x2f
-print(oct(h2))
-
-# 9. Write a python script to store an octal number 125 in a variable and print it in binary
-# format.
-
-o_2=0o125
-print(o_2)
-
-# 10. Write a python script to add two numbers 25 (in octal) and 39 (in hexadecimal) and
-# display the result in binary format.
-o_3=0o25
-h_3= 0x39
-print("sum fo oct and hex number is ",o_3+h_3)
 
 
 

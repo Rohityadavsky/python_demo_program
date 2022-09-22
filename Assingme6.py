@@ -78,12 +78,15 @@ else:
 num1=int(input("Enter first number"))
 num2=int(input("Enter the second number"))
 num3=int(input("Enter the third number"))
-if num1>num2>num3:
-    print("Grater num1")
-elif num2>num1>num3:
-    print("Grater num2")
-elif num3>num2>num1:
-    print("Greater num3")
+       
+print((a if a>c else c) if a>b else (b if b>c else c))
+       
+# if num1>num2>num3:
+#     print("Grater num1")
+# elif num2>num1>num3:
+#     print("Grater num2")
+# elif num3>num2>num1:
+#     print("Greater num3")
 
 # 11. Write a python script to take the month value in numeric format and display the
 #number of days in it.
@@ -94,11 +97,15 @@ elif num3>num2>num1:
   elif month in (4,6,9,11):
        print("30 days")
   elif month==2:
-       print("29 days")
+       print(" 28 or 29 days")
+  else:
+       print("Invalid number")
        
 # 12. Write a python script to accept one complex number from the user and display the
 # greater number between real part and imaginary part
 
+ num=complex(input("Enter a complex number"))
+ print(num.real) if num.real>num.img else print(num.img)
 
 
 
